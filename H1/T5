@@ -1,0 +1,21 @@
+using System;
+
+
+namespace T5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int aika;
+            Console.Write("Anna aika sekunteina: ");
+            aika = int.Parse(Console.ReadLine());
+            int tunnit = aika / 3600;
+            int minuutit = (aika % 3600) / 60;
+            int sekunnit = (aika % 3600) % 60;
+            Console.Write("Antamasi sekunttiaika voidaan ilmaista muodossa: " + tunnit + " tuntia " + minuutit + " minuuttia " + "ja " + sekunnit + " sekuntia");
+            Console.ReadLine();
+
+        }
+    }
+}
