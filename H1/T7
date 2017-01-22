@@ -1,0 +1,36 @@
+using System;
+
+namespace T7
+
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Anna vuosi: ");
+            string line = Console.ReadLine();
+            int vuosi;
+            bool result = Int32.TryParse(line, out vuosi);
+
+
+            if (result)
+            {
+                if (vuosi % 4 == 0 && vuosi % 100 != 0 || vuosi % 400 == 0)
+                {
+                    Console.WriteLine("On karkausvuosi!");
+
+                }
+                else
+                {
+                    Console.WriteLine("Ei ole karkausvuosi!");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("On karkausvuosi!");
+            }
+            Console.ReadLine();
+        }
+    }
+}
