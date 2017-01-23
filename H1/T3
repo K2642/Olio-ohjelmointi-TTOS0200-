@@ -1,3 +1,8 @@
+//****************************************
+Tee ohjelma, joka kysyy käyttäjältä kolme lukua ja tulostaa niiden summan ja keskiarvon.
+//****************************************
+
+
 using System;
 
 namespace T3
