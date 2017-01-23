@@ -1,3 +1,26 @@
+//**********************************************
+Tee kahden sisäkkäisen for-silmukan avulla ohjelma, joka tulostaa seuraavanlaisen kuvion:
+
+*
+**
+***
+****
+*****
+
+Käyttäjä antaa syötteenä tähtirivien lukumäärän. Yllä olevassa esimerkissä käyttäjä on syöttänyt luvun 5.
+
+Esimerkkitoiminta:
+
+
+    Anna Luku > 3 [Enter]
+    *
+    **
+    ***
+    
+//***************************************************
+
+
+
 using System;
 
 
