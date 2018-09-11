@@ -5,6 +5,10 @@ Käy sovelluksessa taulukko läpi ja tulosta ruutuun "HEP"-sana aina kun tauluko
 
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace T10
 
