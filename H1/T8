@@ -8,7 +8,7 @@ Esimerkkitoiminta:
     Give a number: 15 [Enter]
     Give a number: 7 [Enter]
     The biggest number is 15
-    //************************************
+//************************************
   
 using System;
 using System.Collections.Generic;
