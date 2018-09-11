@@ -5,6 +5,10 @@ Jos käyttäjä syöttää jonkin muun luvun, tulee näytölle tulostaa teksti: 
 
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace T1
 
