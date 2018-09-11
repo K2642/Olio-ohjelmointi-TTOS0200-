@@ -9,8 +9,14 @@ Esimerkkitoiminta:
     Give a number: 7 [Enter]
     The biggest number is 15
     //************************************
-    
-    namespace T8
+  
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace T8
 {
     class Program
     {
