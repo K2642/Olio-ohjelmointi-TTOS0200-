@@ -1,0 +1,51 @@
+//**********************************************
+Tee kahden sisäkkäisen for-silmukan avulla ohjelma, joka tulostaa seuraavanlaisen kuvion:
+
+*
+**
+***
+****
+*****
+
+Käyttäjä antaa syötteenä tähtirivien lukumäärän. Yllä olevassa esimerkissä käyttäjä on syöttänyt luvun 5.
+
+Esimerkkitoiminta:
+
+
+    Anna Luku > 3 [Enter]
+    *
+    **
+    ***
+    
+//***************************************************
+
+
+
+using System;
+
+
+namespace T1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int luku;
+            Console.Write("Anna luku: ");
+            luku = int.Parse(Console.ReadLine());
+
+
+            for (int i = 1; i <= luku; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadLine();
+
+        }
+    }
+}
