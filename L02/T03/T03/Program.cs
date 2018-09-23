@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace T03
+{
+    class Program
+
+    {
+
+        static void Main(string[] args)
+
+        {
+            int[] pisteet = new int[5];
+            int kokonaisPisteet = 0;
+            for (int i = 0; i < pisteet.Length; i++)
+            {
+                Console.WriteLine("Tuomari " + (i + 1) + ":");
+                pisteet[i] = int.Parse(Console.ReadLine());
+            }
+
+            Array.Sort(pisteet);
+
+            for (int j = 1; j < 4; j++)
+            {
+                kokonaisPisteet += pisteet[j];
+            }
+            Console.WriteLine("Kokonaispisteet ovat " + kokonaisPisteet);
+
+
+
+            Console.ReadKey();
+
+        }
+
+
+    }
+}
