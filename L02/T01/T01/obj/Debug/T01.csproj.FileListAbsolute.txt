@@ -1,0 +1,6 @@
+C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\L02\T01\T01\bin\Debug\T01.exe.config
+C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\L02\T01\T01\bin\Debug\T01.exe
+C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\L02\T01\T01\bin\Debug\T01.pdb
+C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\L02\T01\T01\obj\Debug\T01.csprojResolveAssemblyReference.cache
+C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\L02\T01\T01\obj\Debug\T01.exe
+C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\L02\T01\T01\obj\Debug\T01.pdb
