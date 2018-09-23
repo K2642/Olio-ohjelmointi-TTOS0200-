@@ -1,5 +1,0 @@
-C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\T6\T6\bin\Debug\T6.exe.config
-C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\T6\T6\bin\Debug\T6.exe
-C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\T6\T6\bin\Debug\T6.pdb
-C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\T6\T6\obj\Debug\T6.exe
-C:\Users\jis\Desktop\Koulu\Olio-ohjelmointi\Olio-ohjelmointi-TTOS0200-\T6\T6\obj\Debug\T6.pdb
