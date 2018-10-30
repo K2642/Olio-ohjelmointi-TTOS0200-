@@ -10,6 +10,7 @@ namespace T01
     {
         static void Main(string[] args)
         {
+            ko
         }
     }
 }
