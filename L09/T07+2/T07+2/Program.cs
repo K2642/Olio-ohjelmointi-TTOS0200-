@@ -53,7 +53,7 @@ namespace T07plus2
 
             Console.WriteLine("Dictionary collection:\n- Adding time : {0} ms\n- Persons count : {1}\n- Random person : {2} {3}\n", (foundms - ms), count, randomPerson.Value.FirstName, randomPerson.Value.LastName);
 
-            
+
 
             i = 0;
             foundms = 0;
@@ -73,7 +73,7 @@ namespace T07plus2
                 i++;
             }
 
-            
+
             foundms = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
             foreach (string s in foundItems) Console.WriteLine(s);
             Console.WriteLine("\n- Persons tried to find : {0}\n- Total findind time : {1} ms", 1000, (foundms - ms));
