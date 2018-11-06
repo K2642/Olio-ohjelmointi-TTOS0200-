@@ -49,9 +49,11 @@ namespace T07plus2
             }
             foundms = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
 
+            var randomPerson = personsDict.ToList()[rand.Next(personsDict.Count)];
 
+            Console.WriteLine("Dictionary collection:\n- Adding time : {0} ms\n- Persons count : {1}\n- Random person : {2} {3}\n", (foundms - ms), count, randomPerson.Value.FirstName, randomPerson.Value.LastName);
 
-            Console.WriteLine("Dictionary collection:\n- Adding time : {0} ms\n- Persons count : {1}", (foundms - ms), count);
+            
 
             i = 0;
             foundms = 0;
@@ -71,19 +73,7 @@ namespace T07plus2
                 i++;
             }
 
-            //while (i <= 20)
-            //{
-            //    foreach (string personality in personsDict.Keys)
-            //    {
-            //        if (personality == RandString(4))
-            //        {
-            //            Console.WriteLine("- Found person with {0} firstname : {0} {1}", personality, personsDict[personality].LastName);
-            //            i++;
-            //        }
-            //    }
-            //    if (i == 20)
-            //        foundms = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            //}
+            
             foundms = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
             foreach (string s in foundItems) Console.WriteLine(s);
             Console.WriteLine("\n- Persons tried to find : {0}\n- Total findind time : {1} ms", 1000, (foundms - ms));
