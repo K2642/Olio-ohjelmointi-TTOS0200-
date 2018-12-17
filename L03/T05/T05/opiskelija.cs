@@ -24,7 +24,7 @@ namespace T05
             Console.WriteLine(" Opiskelijanumero : " + OpiskelijaNumero);
             Console.WriteLine(" Luokkatunnus : " + LuokkaTunnus);
             Console.WriteLine();
-                        
+
         }
 
 
