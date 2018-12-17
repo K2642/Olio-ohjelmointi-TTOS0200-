@@ -21,9 +21,9 @@ namespace T02
             Console.ReadLine();
 
             pesukone.Päällä = false;
-            pesukone.Vedenlämpötila = 20;
+            pesukone.Vedenlämpötila = 0;
             pesukone.Vedentulo = false;
-            pesukone.Linkous = 200;
+            pesukone.Linkous = 0;
 
             Console.WriteLine(pesukone.ToString());
             Console.ReadLine();
