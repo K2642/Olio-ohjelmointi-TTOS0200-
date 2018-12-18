@@ -28,7 +28,7 @@ namespace T01
         public override string ToString()
         {
             return "\n" + this.GetType().Name + "\n- Name: " + Name + " Profession: " + Profession + " Salary: " + Salary;
-            //return "Employee:" + "\nName: " + Name + " Profession:" + Profession + " Salary:" + Salary;
+            
         }
 
 
