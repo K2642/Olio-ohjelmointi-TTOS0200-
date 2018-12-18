@@ -36,8 +36,6 @@ namespace T02
         {
             return "- Name:" + Name + " Model:" + Model + " ModelYear:" + Year + " Color:" + Color;
 
-
-
         }
     }
 }

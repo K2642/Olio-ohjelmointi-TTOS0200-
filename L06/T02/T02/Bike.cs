@@ -32,8 +32,5 @@ namespace T02
             return base.ToString() + " Gear:" + Gear + " Gear Name:" + GearName;
         }
 
-
-
-
     }
 }

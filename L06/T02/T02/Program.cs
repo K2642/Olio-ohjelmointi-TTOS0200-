@@ -60,10 +60,6 @@ namespace T02
             Console.WriteLine(boat1.ToString());
             Console.ReadLine();
 
-
-
-
-
         }
     }
 }

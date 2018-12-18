@@ -32,8 +32,5 @@ namespace T02
             return base.ToString() +  " Seatcount:" + Seats +" BoatType:" + Type;
         }
 
-
-
-
     }
 }
