@@ -25,7 +25,7 @@ namespace T02
 
             Bike bike1 = new Bike();
 
-            bike1.Name = "";
+            bike1.Name = "Tunturi";
             bike1.Model = "Street";
             bike1.Year = 2010;
             bike1.Color = "Black";

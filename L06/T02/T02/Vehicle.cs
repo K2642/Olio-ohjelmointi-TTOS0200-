@@ -34,7 +34,7 @@ namespace T02
 
         public override string ToString()
         {
-            return "- :" + Name + " Model:" + Model + " ModelYear:" + Year + " Color:" + Color;
+            return "- Name:" + Name + " Model:" + Model + " ModelYear:" + Year + " Color:" + Color;
 
 
 
