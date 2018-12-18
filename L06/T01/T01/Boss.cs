@@ -29,8 +29,5 @@ namespace T01
             return base.ToString() + " Car:" + Car + " Bonus:" + Bonus;
         }
 
-
-
-
     }
 }

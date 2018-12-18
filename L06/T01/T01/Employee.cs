@@ -30,9 +30,5 @@ namespace T01
             return "\n" + this.GetType().Name + "\n- Name: " + Name + " Profession: " + Profession + " Salary: " + Salary;
             
         }
-
-
-
-
     }
 }

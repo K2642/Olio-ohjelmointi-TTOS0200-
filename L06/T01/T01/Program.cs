@@ -31,12 +31,6 @@ namespace T01
             employee.Salary = 2200;
             Console.WriteLine(employee.ToString());
 
-
-
-
-
-
-
         }
     }
 }
