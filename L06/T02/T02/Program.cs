@@ -43,7 +43,7 @@ namespace T02
             boat.Year = 1990;
             boat.Color = "White";
             boat.Type = "Rowboat";
-            boat.Seats = 5;
+            boat.Seats = 3;
 
             Console.WriteLine(boat.ToString());
             Console.ReadLine();

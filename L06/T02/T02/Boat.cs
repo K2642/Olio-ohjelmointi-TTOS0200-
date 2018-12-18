@@ -29,7 +29,7 @@ namespace T02
         public override string ToString()
         {
             Console.WriteLine("Boat info");
-            return base.ToString() + " Type:" + Type + " Number of seats:" + Seats;
+            return base.ToString() +  " Seatcount:" + Seats +" BoatType:" + Type;
         }
 
 
