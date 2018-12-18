@@ -28,7 +28,7 @@ namespace T02
 
         public override string ToString()
         {
-            Console.WriteLine("Bike info");
+            Console.WriteLine(" info");
             return base.ToString() + " Gear:" + Gear + " Gear Name:" + GearName;
         }
 
